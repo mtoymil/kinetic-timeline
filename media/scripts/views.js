@@ -104,7 +104,6 @@
     // 
 
     setUpStage: function() {
-      debugger;
       this.$timelineContainer = $('#timelineContainer');
       var width = this.calculateStageWidth();
       var height = this.calculateStageHeight();
@@ -331,7 +330,6 @@
     },
 
     render: function() {
-      debugger;
 
       var self = this;
       // Canvas painting
